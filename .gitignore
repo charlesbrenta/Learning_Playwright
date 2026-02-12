@@ -1,0 +1,26 @@
+# Node
+node_modules/
+npm-debug.log*
+package-lock.json
+yarn.lock
+
+# Playwright
+.playwright/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Others
+coverage/
