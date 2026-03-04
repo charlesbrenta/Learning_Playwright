@@ -1,0 +1,6 @@
+var myName =    "Brenta"; // Function scope, can be reassigned
+if (true) {
+    console.log(myName); // Brenta - myName is accessible here due to function scope
+    var myName = "Charles"; // This redeclares the variable 'myName' in the same function scope, shadowing the outer 'myName'
+    console.log(myName); // Charles - This will log the inner 'myName' which is "Charles"
+}
